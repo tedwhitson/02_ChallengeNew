@@ -12,7 +12,7 @@ color: var(--white);
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.5;
     color: var(--gray);
     background-color: var(--purple);
@@ -29,36 +29,36 @@ body:local-link {
   h4,
   h5,
   h6 {
-    margin-bottom: 0.625rem;
+    margin-bottom: 2px;
     font-weight: 700;
     line-height: 1.1;
     text-align: left;
   }
 
   h1 {
-    font-size: 4rem;
-
+    font-size: 64px;
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 56px;
   }
 
   h3 {
-    font-size: 3.0rem;
+    font-size: 48px;
   }
   
   h4 {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
   
   h5 {
-    font-size: 2.0rem;
+    font-size: 32px;
   }
   
   h6 {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
+  
   
   .nav { 
     text-align: right;
@@ -66,10 +66,12 @@ body:local-link {
 
  
  header {
+  border: 2px;
   padding: 60px;
   text-align: left;
   list-style-type:none;
   display: inline;
+
     }
  
     li {
@@ -82,17 +84,24 @@ body:local-link {
 
 
   main {
+    border: 2px;
     padding: 60px;
 
   }
   
   main p {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 24px;
+
+  }
+
+
+  Project {
+    justify-content: center;
 
   }
 /*
-  .card {
+  .Project2 {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
@@ -120,10 +129,19 @@ body:local-link {
   }
   
   footer li {
+    border: 2px;
     padding: 10px;
     list-style-type: none;
     text-decoration: none;
     display: inline;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -20px;
+    margin-right: 20px;
   }
 
   @media screen and (max-width: 992px) {
